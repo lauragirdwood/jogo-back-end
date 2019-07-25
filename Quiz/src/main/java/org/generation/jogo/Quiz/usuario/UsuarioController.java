@@ -10,6 +10,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api_quiz/v1")
+@CrossOrigin("*")
 public class UsuarioController {
 
     @Autowired
