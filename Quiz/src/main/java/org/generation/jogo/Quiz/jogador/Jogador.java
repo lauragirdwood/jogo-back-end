@@ -3,10 +3,13 @@ package org.generation.jogo.Quiz.jogador;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.generation.jogo.Quiz.quiz.Quiz;
 import org.generation.jogo.Quiz.usuario.Usuario;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
+import java.util.HashSet;
+import java.util.Set;
 
 @Data
 @Entity
@@ -45,5 +48,8 @@ public class Jogador {
 
     @NotNull
     private Integer nivel;
+
+    @ManyToMany(mappedBy = "jogadores")
+    private Set<Quiz> quizs = new HashSet<>();
 
 }

@@ -8,6 +8,9 @@ import org.generation.jogo.Quiz.quiz.Quiz;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
+import java.awt.print.Book;
+import java.util.HashSet;
+import java.util.Set;
 
 @Data
 @AllArgsConstructor
@@ -42,5 +45,8 @@ public class Pergunta {
 
     @NotNull
     private Integer valor_pontuacao;
+
+    @ManyToMany(mappedBy = "perguntas")
+    private Set<Quiz> quizs = new HashSet<>();
 
 }

@@ -1,6 +1,8 @@
 package org.generation.jogo.Quiz.jogador;
 
 import org.generation.jogo.Quiz.exception.ResourceNotFoundException;
+import org.generation.jogo.Quiz.usuario.Usuario;
+import org.generation.jogo.Quiz.usuario.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -14,6 +16,8 @@ public class JogadorController {
 
     @Autowired
     private JogadorRepository jogadorRepository;
+    @Autowired
+    private UsuarioRepository usuarioRepository;
 
     // READ
     @GetMapping("/jogadores")
@@ -50,5 +54,4 @@ public class JogadorController {
     public void delete (@PathVariable Long id_jogador) {
         jogadorRepository.deleteById(id_jogador);
     }
-
 }

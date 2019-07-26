@@ -1,0 +1,7 @@
+
+msquid:S00116""VRename this field "id_pergunta" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ
+osquid:S00116&"RRename this field "id_quiz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³Â»Ñøÿÿÿÿ
+rsquid:S00116/"ZRename this field "valor_pontuacao" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÈ“µ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ñİ˜ÿÿÿÿÿ
+isquid:UselessImportCheck"ERemove this unused import 'org.generation.jogo.Quiz.QuizApplication'.(‘‰Ù
+Ysquid:UselessImportCheck"0Remove this unused import 'java.awt.print.Book'.(ÕÓÄßúÿÿÿÿ
