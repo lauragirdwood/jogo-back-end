@@ -1,4 +1,4 @@
-# Jogo Educativo deleteBarreiras();
+# Jogo Educativo devscore
 ## repo back-end
 
 Aqui fica o back-end do Projeto Integrador (projeto final) do curso Generation.
