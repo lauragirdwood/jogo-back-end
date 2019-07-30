@@ -11,13 +11,11 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping
+@RequestMapping("/api_quiz/v1")
 public class JogadorController {
 
     @Autowired
     private JogadorRepository jogadorRepository;
-    @Autowired
-    private UsuarioRepository usuarioRepository;
 
     // READ
     @GetMapping("/jogadores")
@@ -26,9 +24,9 @@ public class JogadorController {
     }
 
     // READ BY ID
-    @GetMapping("/jogadores/{id_jogador}")
-    public Optional<Jogador> findById(@PathVariable Long id_jogador) {
-        return jogadorRepository.findById(id_jogador);
+    @GetMapping("/jogadores/{idJogador}")
+    public Optional<Jogador> findById(@PathVariable Long idJogador) {
+        return jogadorRepository.findById(idJogador);
     }
 
     // CREATE
@@ -39,19 +37,19 @@ public class JogadorController {
     }
 
     // UPDATE
-    @PutMapping("/jogador/{id_jogador}")
-    public Jogador update (@PathVariable Long id_jogador, @RequestBody Jogador jogador) throws ResourceNotFoundException {
-        return jogadorRepository.findById(id_jogador).map(j -> {
+    @PutMapping("/jogadores/{idJogador}")
+    public Jogador update (@PathVariable Long idJogador, @RequestBody Jogador jogador) throws ResourceNotFoundException {
+        return jogadorRepository.findById(idJogador).map(j -> {
             j.setNome(jogador.getNome());
             j.setNivel(jogador.getNivel());
             j.setPontuacao(jogador.getPontuacao());
             return jogadorRepository.save(j);
-        }) .orElseThrow(() -> new ResourceNotFoundException("Não existe jogador cadastrado com o id_jogador" + id_jogador));
+        }) .orElseThrow(() -> new ResourceNotFoundException("Não existe jogador cadastrado com o id" + idJogador));
     }
 
     //DELETE
-    @DeleteMapping("/jogador/{id_jogador}")
-    public void delete (@PathVariable Long id_jogador) {
-        jogadorRepository.deleteById(id_jogador);
+    @DeleteMapping("/jogadores/{idJogador}")
+    public void delete (@PathVariable Long idJogador) {
+        jogadorRepository.deleteById(idJogador);
     }
 }

@@ -1,52 +1,33 @@
 package org.generation.jogo.Quiz.pergunta;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import org.generation.jogo.Quiz.QuizApplication;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import lombok.Getter;
+import lombok.Setter;
 import org.generation.jogo.Quiz.quiz.Quiz;
-
+import org.generation.jogo.Quiz.resposta.Resposta;
 import javax.persistence.*;
-import javax.validation.constraints.NotNull;
-import java.awt.print.Book;
 import java.util.HashSet;
 import java.util.Set;
 
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
+@Getter @Setter
 @Entity
-@Table (name = "pergunta", uniqueConstraints = {
-        @UniqueConstraint(columnNames = {
-                "numero"
-        }),
-        @UniqueConstraint(columnNames = {
-                "descricao"
-        }),
-        @UniqueConstraint(columnNames = {
-                "valor_pontuacao"
-        })
-})
 public class Pergunta {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id_pergunta;
+    private Long id;
 
+    @JsonIgnore
     @ManyToOne
     @JoinColumn(name = "id_quiz")
-    private Quiz id_quiz;
+    private Quiz quiz;
 
-    @NotNull
+    @OneToMany(mappedBy = "pergunta")
+    private Set<Resposta> respostas = new HashSet<>();
+
     private Integer numero;
 
-    @NotNull
     private String descricao;
 
-    @NotNull
     private Integer valor_pontuacao;
-
-    @ManyToMany(mappedBy = "perguntas")
-    private Set<Quiz> quizs = new HashSet<>();
-
 }

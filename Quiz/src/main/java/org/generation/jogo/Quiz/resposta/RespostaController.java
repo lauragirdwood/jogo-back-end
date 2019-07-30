@@ -1,4 +1,4 @@
-package org.generation.jogo.Quiz.resposta;
+/*package org.generation.jogo.Quiz.resposta;
 
 import org.generation.jogo.Quiz.exception.ResourceNotFoundException;
 import org.generation.jogo.Quiz.exception.ResourceNotFoundException;
@@ -52,4 +52,4 @@ public class RespostaController {
         respostaRepository.deleteById(id_resposta);
     }
 
-}
+}*/

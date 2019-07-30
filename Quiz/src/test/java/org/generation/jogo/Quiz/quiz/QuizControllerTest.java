@@ -1,4 +1,4 @@
-package org.generation.jogo.Quiz.quiz;
+/*package org.generation.jogo.Quiz.quiz;
 
 import org.junit.Test;
 
@@ -25,4 +25,4 @@ public class QuizControllerTest {
     @Test
     public void delete() {
     }
-}
+}*/

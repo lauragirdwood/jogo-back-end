@@ -46,13 +46,13 @@ public class UsuarioControllerIntegrationTest {
 
     @Test
     public void readById() {
-        Usuario resposta = testRestTemplate.getForObject(getRootUrl("/usuarios/3"), Usuario.class);
+        Usuario resposta = testRestTemplate.getForObject(getRootUrl("/usuarios/1"), Usuario.class);
         assertNotNull(resposta);
     }
 
     @Test
     public void update() {
-        int id = 8;
+        int id = 1;
 
         Usuario usuario = testRestTemplate.getForObject(getRootUrl("/usuarios/" + id), Usuario.class);
 
@@ -72,7 +72,7 @@ public class UsuarioControllerIntegrationTest {
 
     @Test
     public void delete() {
-        int id = 2;
+        int id = 1;
         Usuario usuario = testRestTemplate.getForObject(getRootUrl("/usuarios/" + id), Usuario.class);
         assertNotNull(usuario);
         testRestTemplate.delete(getRootUrl("/usuarios/" + id));

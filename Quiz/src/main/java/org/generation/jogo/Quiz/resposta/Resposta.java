@@ -1,45 +1,28 @@
 package org.generation.jogo.Quiz.resposta;
 
-
-import lombok.AllArgsConstructor;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
 import org.generation.jogo.Quiz.pergunta.Pergunta;
-
 import javax.persistence.*;
-import javax.validation.constraints.NotNull;
 
-@Data
+@Getter @Setter
 @Entity
-@AllArgsConstructor
-@NoArgsConstructor
-@Table (name = "resposta", uniqueConstraints = {
-        @UniqueConstraint(columnNames = {
-                "alternativa"
-        }),
-        @UniqueConstraint(columnNames = {
-                "descricao"
-        }),
-        @UniqueConstraint(columnNames = {
-                "certa"
-        })
-})
 public class Resposta {
 
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
-    private Long id_resposta;
+    private Long id;
 
+    @JsonIgnore
     @ManyToOne
     @JoinColumn (name = "id_pergunta")
-    private Pergunta id_pergunta;
+    private Pergunta pergunta;
 
-    @NotNull
     private String alternativa;
 
-    @NotNull
     private String descricao;
 
-    @NotNull
     private boolean certa;
 }

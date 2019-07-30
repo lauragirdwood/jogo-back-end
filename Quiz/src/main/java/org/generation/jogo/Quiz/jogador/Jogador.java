@@ -1,55 +1,34 @@
 package org.generation.jogo.Quiz.jogador;
 
-import lombok.AllArgsConstructor;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
-import lombok.NoArgsConstructor;
-import org.generation.jogo.Quiz.quiz.Quiz;
+import org.generation.jogo.Quiz.partida.Partida;
 import org.generation.jogo.Quiz.usuario.Usuario;
-
 import javax.persistence.*;
-import javax.validation.constraints.NotNull;
 import java.util.HashSet;
 import java.util.Set;
 
 @Data
 @Entity
-@AllArgsConstructor
-@NoArgsConstructor
-@Table (name = "jogador", uniqueConstraints = {
-        @UniqueConstraint(columnNames = {
-                "id_usuario"
-        }),
-        @UniqueConstraint(columnNames = {
-                "nome"
-        }),
-        @UniqueConstraint(columnNames = {
-                "pontuacao"
-        }),
-        @UniqueConstraint(columnNames = {
-                "nivel"
-        })
-})
-
 public class Jogador {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id_jogador;
+    private Long id;
 
+    @JsonIgnore
     @OneToOne
     @JoinColumn(name = "id_usuario")
-    private Usuario id_usuario;
+    @MapsId
+    private Usuario usuario;
 
-    @NotNull
+    @OneToMany(mappedBy = "quiz")
+    private Set<Partida> partidas = new HashSet<>();
+
     private String nome;
 
-    @NotNull
+    private String fotoUrl;
+
     private Integer pontuacao;
 
-    @NotNull
     private Integer nivel;
-
-    @ManyToMany(mappedBy = "jogadores")
-    private Set<Quiz> quizs = new HashSet<>();
-
 }

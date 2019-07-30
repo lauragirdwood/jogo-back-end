@@ -1,4 +1,4 @@
-package org.generation.jogo.Quiz.pergunta;
+/*package org.generation.jogo.Quiz.pergunta;
 
 
 import org.generation.jogo.Quiz.QuizApplication;
@@ -87,4 +87,4 @@ public class PerguntaControllerIntegrationTest {
         }
 
     }
-}
+}*/

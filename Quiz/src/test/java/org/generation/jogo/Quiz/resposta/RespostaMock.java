@@ -1,4 +1,4 @@
-package org.generation.jogo.Quiz.resposta;
+/*package org.generation.jogo.Quiz.resposta;
 
 import com.github.javafaker.Faker;
 import org.generation.jogo.Quiz.pergunta.Pergunta;
@@ -15,4 +15,4 @@ public class RespostaMock {
 
         return respostaFake;
     }
-}
+}*/

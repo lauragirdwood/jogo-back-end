@@ -1,4 +1,4 @@
-package org.generation.jogo.Quiz.pergunta;
+/*package org.generation.jogo.Quiz.pergunta;
 
 import com.github.javafaker.Faker;
 
@@ -16,4 +16,4 @@ public class PerguntaMock {
 
         return perguntaFake;
     }
-}
+}*/

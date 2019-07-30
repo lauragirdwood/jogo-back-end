@@ -23,9 +23,9 @@ public class UsuarioController {
     }
 
     // READ BY ID
-    @GetMapping("/usuarios/{id_usuario}")
-    public Optional<Usuario> findById(@PathVariable Long id_usuario) {
-        return usuarioRepository.findById(id_usuario);
+    @GetMapping("/usuarios/{idUsuario}")
+    public Optional<Usuario> findById(@PathVariable Long idUsuario) {
+        return usuarioRepository.findById(idUsuario);
     }
 
     // CREATE
@@ -36,19 +36,19 @@ public class UsuarioController {
     }
 
     // UPDATE
-    @PutMapping("/usuarios/{id_usuario}")
-    public Usuario update (@PathVariable Long id_usuario, @RequestBody Usuario usuario) throws ResourceNotFoundException {
-        return usuarioRepository.findById(id_usuario).map(u -> {
+    @PutMapping("/usuarios/{idUsuario}")
+    public Usuario update (@PathVariable Long idUsuario, @RequestBody Usuario usuario) throws ResourceNotFoundException {
+        return usuarioRepository.findById(idUsuario).map(u -> {
             u.setUsername(usuario.getUsername());
             u.setSenha(usuario.getSenha());
             return usuarioRepository.save(u);
-        }) .orElseThrow(() -> new ResourceNotFoundException("Não existe usuario cadastrada com o id_usuario" + id_usuario));
+        }) .orElseThrow(() -> new ResourceNotFoundException("Não existe usuario cadastrada com o id" + idUsuario));
     }
 
     //DELETE
-    @DeleteMapping("/usuarios/{id_usuario}")
-    public void delete (@PathVariable Long id_usuario) {
-        usuarioRepository.deleteById(id_usuario);
+    @DeleteMapping("/usuarios/{idUsuario}")
+    public void delete (@PathVariable Long idUsuario) {
+        usuarioRepository.deleteById(idUsuario);
     }
 
 }
