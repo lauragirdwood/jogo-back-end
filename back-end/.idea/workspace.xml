@@ -3,11 +3,40 @@
   <component name="ChangeListManager">
     <list default="true" id="77c45836-f77f-499a-91b5-4501f7ca1ebf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/jogador/Jogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/jogador/Jogador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/jogador/JogadorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/jogador/JogadorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/user/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/user/UserPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/user/UserPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/sonarlint/issuestore/1/7/17501cd96bc02898eaf83de8755cdad5a8033905" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/sonarlint/issuestore/1/b/1b4e3a3375243f6b82adc3682e022955888824de" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/sonarlint/issuestore/1/b/1b7da4348419c80052616dace1a7378a31d6cc8e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/sonarlint/issuestore/1/f/1f6f5b6b0edd91e8454325cde75595a301be2ccc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/sonarlint/issuestore/2/3/235d0f527b1157573c71a5443b04bf215fd49232" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/sonarlint/issuestore/2/9/297864e5232796e461a85a1553f9c1f425b80e41" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/sonarlint/issuestore/2/e/2e50a2f46e04ce71afb29f9665ef7760c7ab4de3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/sonarlint/issuestore/3/d/3d139aa1f588fd5f3d6651902f869e1d9fd24427" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/sonarlint/issuestore/4/1/41fcbcdcecda3316d50b2d46932fab893d1565d1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/sonarlint/issuestore/4/6/46e2a3ca72d92d5c1fcf558171e1097ffeb85bfb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/sonarlint/issuestore/4/9/496cd402e8b8833d094fbff0fb24529abdcbc067" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/sonarlint/issuestore/4/c/4c4ffeb58e1f332814a04505092d173419792e5e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/sonarlint/issuestore/5/0/500d80db21a40bbe64047e4065e2a43c9a76d668" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/sonarlint/issuestore/6/1/61c462c1b6556338ea49c42c988049e30218818d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/sonarlint/issuestore/8/5/856ecb799c39a28d35afbd81832e2d16461023bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/sonarlint/issuestore/9/5/957faa9f35d86c55748cde3d436ee07df6a80e26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/sonarlint/issuestore/b/2/b2e8f31379658008e16298d05b3047872c92c8a1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/sonarlint/issuestore/b/3/b3adc8cd128bc99c13a9363b8a77dbfb0b7dcb97" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/sonarlint/issuestore/b/8/b854d08fbe71ea1cd227cdf601f03941130b1112" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/sonarlint/issuestore/c/5/c582bc1fe7086c221cd2f4fe5722683b42052fd3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/sonarlint/issuestore/c/6/c606ff50e50292b92094c94137cc0399af9e0e8d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/sonarlint/issuestore/d/0/d066f01bd6f696ac50fb196a31ea9ac5a6e614d9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/sonarlint/issuestore/d/f/dfcb42ba2ac8c375722dad96e32897631da02b18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/sonarlint/issuestore/e/3/e338ea1782c98438293d52dc34ca1c0de877c065" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/sonarlint/issuestore/e/5/e540fea2650e4db13886f8699b66ea4ecfaacc98" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/sonarlint/issuestore/f/e/feea96919267dbb91c046cfcf1b1ef7aa07e3f9c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Quiz/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/back-end/target/" />
@@ -17,108 +46,49 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/user/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="15" selection-start-line="15" selection-end-line="26" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/user/UserPrincipal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1481#1482#0" expanded="true" />
-                <element signature="e#1502#1503#0" expanded="true" />
-                <element signature="e#1599#1600#0" expanded="true" />
-                <element signature="e#1624#1625#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/user/UserProfile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/user/UserRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/user/CurrentUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/user/UserSummary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/jogador/JogadorController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/user/CustomUserDetailsService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/user/UserIdentityAvailability.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/jogador/Jogador.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/BackEndApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/back-end/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -140,6 +110,7 @@
         <option value="$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/jogador/JogadorController.java" />
         <option value="$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/jogador/Jogador.java" />
         <option value="$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/user/User.java" />
+        <option value="$PROJECT_DIR$/back-end/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -151,7 +122,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+    <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -201,27 +172,28 @@
               <item name="back-end" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="jogador" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="back-end" type="b2602c69:ProjectViewProjectNode" />
               <item name="back-end" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="role" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="back-end" type="b2602c69:ProjectViewProjectNode" />
               <item name="back-end" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="back-end" type="b2602c69:ProjectViewProjectNode" />
+              <item name="back-end" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -230,6 +202,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -268,18 +241,18 @@
       <option name="presentableId" value="Default" />
       <updated>1564572296276</updated>
       <workItem from="1564572303384" duration="2173000" />
-      <workItem from="1564575286322" duration="2896000" />
+      <workItem from="1564575286322" duration="7507000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5069000" />
+    <option name="totallyTimeSpent" value="9680000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="697" height="735" extended-state="0" />
+    <frame x="676" y="0" width="697" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.45521292" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35829663" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -308,7 +281,7 @@
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.07929515" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
@@ -353,13 +326,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/user/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/user/UserIdentityAvailability.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -374,10 +340,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/jogador/JogadorController.java">
+    <entry file="file://$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/user/UserProfile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="102">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/user/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -395,6 +371,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/user/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/user/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -402,17 +385,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/user/UserProfile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/user/CurrentUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/jogador/JogadorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="e#1171#1172#0" expanded="true" />
+            <element signature="e#1219#1220#0" expanded="true" />
+            <element signature="e#1338#1339#0" expanded="true" />
+            <element signature="e#1382#1383#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -430,13 +419,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/user/User.java">
+    <entry file="file://$PROJECT_DIR$/back-end/src/main/java/org/generation/brazil/backend/BackEndApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="15" selection-start-line="15" selection-end-line="26" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
