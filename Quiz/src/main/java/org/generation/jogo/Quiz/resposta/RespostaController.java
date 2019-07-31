@@ -1,4 +1,4 @@
-/*package org.generation.jogo.Quiz.resposta;
+package org.generation.jogo.Quiz.resposta;
 
 import org.generation.jogo.Quiz.exception.ResourceNotFoundException;
 import org.generation.jogo.Quiz.exception.ResourceNotFoundException;
@@ -23,9 +23,9 @@ public class RespostaController {
     }
 
     // READ BY ID
-    @GetMapping("/respostas/{id_resposta}")
-    public Optional<Resposta> findById(@PathVariable Long id_resposta) {
-        return respostaRepository.findById(id_resposta);
+    @GetMapping("/respostas/{id}")
+    public Optional<Resposta> findById(@PathVariable Long id) {
+        return respostaRepository.findById(id);
     }
 
     // CREATE
@@ -36,20 +36,20 @@ public class RespostaController {
     }
 
     // UPDATE
-    @PutMapping("/respostas/{id_resposta}")
-    public Resposta update (@PathVariable Long id_resposta, @RequestBody Resposta resposta) throws ResourceNotFoundException {
-        return respostaRepository.findById(id_resposta).map(r -> {
+    @PutMapping("/respostas/{id}")
+    public Resposta update (@PathVariable Long id, @RequestBody Resposta resposta) throws ResourceNotFoundException {
+        return respostaRepository.findById(id).map(r -> {
             r.setAlternativa(resposta.getAlternativa());
             r.setDescricao(resposta.getDescricao());
             r.setCerta(resposta.isCerta());
             return respostaRepository.save(r);
-        }) .orElseThrow(() -> new ResourceNotFoundException("Não existe pergunta cadastrada com o id_resposta" + id_resposta));
+        }) .orElseThrow(() -> new ResourceNotFoundException("Não existe pergunta cadastrada com o id" + id));
     }
 
     //DELETE
-    @DeleteMapping("/respostas/{id_resposta}")
-    public void delete (@PathVariable Long id_resposta) {
-        respostaRepository.deleteById(id_resposta);
+    @DeleteMapping("/respostas/{id}")
+    public void delete (@PathVariable Long id) {
+        respostaRepository.deleteById(id);
     }
 
-}*/
+}

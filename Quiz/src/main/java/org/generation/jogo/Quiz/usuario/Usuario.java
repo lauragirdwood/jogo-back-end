@@ -10,10 +10,11 @@ import javax.persistence.*;
 public class Usuario {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column( name = "id_usuario")
-    private Long idUsuario;
+    private Long id;
 
-    @OneToOne(mappedBy = "usuario", cascade = CascadeType.ALL)
+    @OneToOne(mappedBy = "usuario")
     private Jogador jogador;
 
     private String username;

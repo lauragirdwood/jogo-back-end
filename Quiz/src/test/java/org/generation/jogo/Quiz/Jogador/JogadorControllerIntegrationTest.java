@@ -38,7 +38,7 @@ public class JogadorControllerIntegrationTest {
         assertEquals(201, postResponse.getStatusCodeValue());
     }
 
-   /* @Test
+   @Test
     public void read() {
         HttpHeaders headers = new HttpHeaders();
         HttpEntity<String> entity = new HttpEntity<String>(null, headers);
@@ -49,11 +49,11 @@ public class JogadorControllerIntegrationTest {
 
     @Test
     public void readById() {
-        Jogador jogador = testRestTemplate.getForObject(getRootUrl("/jogadores/6"), Jogador.class);
+        Jogador jogador = testRestTemplate.getForObject(getRootUrl("/jogadores/1"), Jogador.class);
         assertNotNull(jogador);
     }
 
-    @Test
+    /*@Test
     public void update() {
         int id = 6;
 

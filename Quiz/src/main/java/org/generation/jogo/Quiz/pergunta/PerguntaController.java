@@ -22,9 +22,9 @@ public class PerguntaController {
     }
 
     // READ BY ID
-    @GetMapping("/perguntas/{id_pergunta}")
-    public Optional<Pergunta> findById(@PathVariable Long id_pergunta) {
-        return perguntaRepository.findById(id_pergunta);
+    @GetMapping("/perguntas/{id}")
+    public Optional<Pergunta> findById(@PathVariable Long id) {
+        return perguntaRepository.findById(id);
     }
 
     // CREATE
@@ -35,20 +35,20 @@ public class PerguntaController {
     }
 
     // UPDATE
-    @PutMapping("/perguntas/{id_pergunta}")
-    public Pergunta update (@PathVariable Long id_pergunta, @RequestBody Pergunta pergunta) throws ResourceNotFoundException {
-        return perguntaRepository.findById(id_pergunta).map(p -> {
+    @PutMapping("/perguntas/{id}")
+    public Pergunta update (@PathVariable Long id, @RequestBody Pergunta pergunta) throws ResourceNotFoundException {
+        return perguntaRepository.findById(id).map(p -> {
             p.setNumero(pergunta.getNumero());
             p.setDescricao(pergunta.getDescricao());
             p.setValor_pontuacao(pergunta.getValor_pontuacao());
             return perguntaRepository.save(p);
-        }) .orElseThrow(() -> new ResourceNotFoundException("Não existe pergunta cadastrada com o id_pergunta" + id_pergunta));
+        }) .orElseThrow(() -> new ResourceNotFoundException("Não existe pergunta cadastrada com o id" + id));
     }
 
     //DELETE
-    @DeleteMapping("/perguntas/{id_pergunta}")
-    public void delete (@PathVariable Long id_pergunta) {
-        perguntaRepository.deleteById(id_pergunta);
+    @DeleteMapping("/perguntas/{id}")
+    public void delete (@PathVariable Long id) {
+        perguntaRepository.deleteById(id);
     }
 
 }

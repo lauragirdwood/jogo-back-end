@@ -22,9 +22,9 @@ public class QuizController {
     }
 
     // READ BY ID
-    @GetMapping("/quiz/{id_quiz}")
-    public Optional<Quiz> findById(@PathVariable Long id_quiz) {
-        return quizRepository.findById(id_quiz);
+    @GetMapping("/quiz/{id}")
+    public Optional<Quiz> findById(@PathVariable Long id) {
+        return quizRepository.findById(id);
     }
 
     // CREATE
@@ -35,19 +35,19 @@ public class QuizController {
     }
 
     // UPDATE
-    @PutMapping("/quiz/{id_quiz}")
-    public Quiz update (@PathVariable Long id_quiz, @RequestBody Quiz quiz) throws ResourceNotFoundException {
-        return quizRepository.findById(id_quiz).map(p -> {
-            p.setNome(quiz.getNome());
-            p.setTema(quiz.getTema());
-            return quizRepository.save(p);
-        }) .orElseThrow(() -> new ResourceNotFoundException("Não existe quiz cadastrado com o id: " + id_quiz));
+    @PutMapping("/quiz/{id}")
+    public Quiz update (@PathVariable Long id, @RequestBody Quiz quiz) throws ResourceNotFoundException {
+        return quizRepository.findById(id).map(q -> {
+            q.setNome(quiz.getNome());
+            q.setTema(quiz.getTema());
+            return quizRepository.save(q);
+        }) .orElseThrow(() -> new ResourceNotFoundException("Não existe quiz cadastrado com o id: " + id));
     }
 
     //DELETE
-    @DeleteMapping("/quiz/{id_quiz}")
-    public void delete (@PathVariable Long id_quiz) {
-        quizRepository.deleteById(id_quiz);
+    @DeleteMapping("/quiz/{id}")
+    public void delete (@PathVariable Long id) {
+        quizRepository.deleteById(id);
     }
 
 }

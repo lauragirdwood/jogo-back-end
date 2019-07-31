@@ -24,32 +24,32 @@ public class JogadorController {
     }
 
     // READ BY ID
-    @GetMapping("/jogadores/{idJogador}")
-    public Optional<Jogador> findById(@PathVariable Long idJogador) {
-        return jogadorRepository.findById(idJogador);
+    @GetMapping("/jogadores/{id}")
+    public Optional<Jogador> findById(@PathVariable Long id) {
+        return jogadorRepository.findById(id);
     }
 
     // CREATE
-    @PostMapping("/jogadores")
+    @PostMapping("/jogadores/{id}")
     @ResponseStatus(HttpStatus.CREATED)
-    public Jogador save (@RequestBody Jogador jogador) {
+    public Jogador save (@PathVariable Long id, @RequestBody Jogador jogador) {
         return jogadorRepository.save(jogador);
     }
 
     // UPDATE
-    @PutMapping("/jogadores/{idJogador}")
-    public Jogador update (@PathVariable Long idJogador, @RequestBody Jogador jogador) throws ResourceNotFoundException {
-        return jogadorRepository.findById(idJogador).map(j -> {
+    @PutMapping("/jogadores/{id}")
+    public Jogador update (@PathVariable Long id, @RequestBody Jogador jogador) throws ResourceNotFoundException {
+        return jogadorRepository.findById(id).map(j -> {
             j.setNome(jogador.getNome());
             j.setNivel(jogador.getNivel());
             j.setPontuacao(jogador.getPontuacao());
             return jogadorRepository.save(j);
-        }) .orElseThrow(() -> new ResourceNotFoundException("Não existe jogador cadastrado com o id" + idJogador));
+        }) .orElseThrow(() -> new ResourceNotFoundException("Não existe jogador cadastrado com o id" + id));
     }
 
     //DELETE
-    @DeleteMapping("/jogadores/{idJogador}")
-    public void delete (@PathVariable Long idJogador) {
-        jogadorRepository.deleteById(idJogador);
+    @DeleteMapping("/jogadores/{id}")
+    public void delete (@PathVariable Long id) {
+        jogadorRepository.deleteById(id);
     }
 }
