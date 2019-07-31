@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afbd8384-6372-4162-b81e-97f4b0e8d4ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/jogador/Jogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/jogador/Jogador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../back-end/back-end/src/main/java/org/generation/brazil/backend/jogador/Jogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../back-end/back-end/src/main/java/org/generation/brazil/backend/jogador/Jogador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../back-end/back-end/src/main/java/org/generation/brazil/backend/jogador/JogadorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../back-end/back-end/src/main/java/org/generation/brazil/backend/jogador/JogadorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back-end/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../back-end/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back-end/back-end/src/main/java/org/generation/brazil/backend/authentication/AuthenticationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../back-end/back-end/src/main/java/org/generation/brazil/backend/authentication/AuthenticationResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back-end/back-end/src/main/java/org/generation/brazil/backend/role/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../back-end/back-end/src/main/java/org/generation/brazil/backend/role/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back-end/back-end/src/main/java/org/generation/brazil/backend/security/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../back-end/back-end/src/main/java/org/generation/brazil/backend/security/LoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back-end/back-end/src/main/java/org/generation/brazil/backend/security/SignUpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../back-end/back-end/src/main/java/org/generation/brazil/backend/security/SignUpRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back-end/back-end/src/main/java/org/generation/brazil/backend/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../back-end/back-end/src/main/java/org/generation/brazil/backend/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back-end/back-end/src/main/java/org/generation/brazil/backend/user/UserPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../back-end/back-end/src/main/java/org/generation/brazil/backend/user/UserPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back-end/back-end/src/main/java/org/generation/brazil/backend/user/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../back-end/back-end/src/main/java/org/generation/brazil/backend/user/UserProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back-end/back-end/src/main/java/org/generation/brazil/backend/user/UserSummary.java" beforeDir="false" afterPath="$PROJECT_DIR$/../back-end/back-end/src/main/java/org/generation/brazil/backend/user/UserSummary.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,7 +22,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/jogador/Jogador.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -30,6 +36,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/usuario/Usuario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -121,6 +136,15 @@
               <item name="Quiz" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Quiz" type="462c0819:PsiDirectoryNode" />
+              <item name="usuario" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Quiz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quiz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -168,16 +192,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564580636102</updated>
-      <workItem from="1564580640819" duration="3199000" />
+      <workItem from="1564580640819" duration="3521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3199000" />
+    <option name="totallyTimeSpent" value="3521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="697" height="735" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -250,6 +273,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/usuario/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>

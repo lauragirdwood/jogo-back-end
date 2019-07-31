@@ -13,7 +13,6 @@ import org.generation.brazil.backend.role.Role;
 
 @Getter
 @Setter
-@Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
