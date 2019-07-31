@@ -45,15 +45,16 @@ public class JogadorController {
     return ResponseEntity.ok().body(jogador);
   }
 
-  // 'U' DO CRUD - UPDATE 'ATUALIZA TODOS OS CAMPOS DO ID'
+  // 'U' DO CRUD - UPDATE 'ATUALIZA TODOS OS CAMPOS REERENTES AO ID'
   @PutMapping("/jogadores/{id}")
   public ResponseEntity<Jogador> updateJogador(@PathVariable(value = "id") Long jogadorId, @Valid @RequestBody Jogador jogadorDetails) {
 
     Jogador jogador = jogadorRepository.findById(jogadorId).orElseThrow(() -> new ResourceNotFoundException(NOT_FOUND + jogadorId));
 
     jogador.setNome(jogadorDetails.getNome());
-    jogador.setSobrenome(jogadorDetails.getSobrenome());
-    jogador.setCidade(jogadorDetails.getCidade());
+    jogador.setFotoUrl(jogadorDetails.getFotoUrl());
+    jogador.setPontuacao(jogadorDetails.getPontuacao());
+    jogador.setNivel(jogadorDetails.getNivel());
 
     final Jogador updatedJogador = jogadorRepository.save(jogador);
 
