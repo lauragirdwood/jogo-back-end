@@ -21,7 +21,7 @@ public class Jogador {
     @MapsId
     private Usuario usuario;
 
-    @OneToMany(mappedBy = "quiz")
+    @OneToMany(mappedBy = "jogador")
     private Set<Partida> partidas = new HashSet<>();
 
     private String nome;
