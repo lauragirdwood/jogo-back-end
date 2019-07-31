@@ -11,7 +11,8 @@ import lombok.*;
 import org.generation.brazil.backend.jogador.Jogador;
 import org.generation.brazil.backend.role.Role;
 
-//@Getter @Setter
+@Getter
+@Setter
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -28,8 +29,8 @@ public class User {
 
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
-  private Long id;
-
+  private Long idUser;
+  @Column (name = "id_user")
   @NotBlank
   @Size(max = 40)
   private String name;

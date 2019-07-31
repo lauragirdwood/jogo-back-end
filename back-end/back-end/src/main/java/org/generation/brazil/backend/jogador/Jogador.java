@@ -13,7 +13,6 @@ import lombok.Data;
 public class Jogador {
 
   @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
 
   @NotBlank

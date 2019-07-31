@@ -5,6 +5,8 @@ import java.util.Collection;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
+
+import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -41,7 +43,7 @@ public class UserPrincipal implements UserDetails {
     ).collect(Collectors.toList());
 
     return new UserPrincipal(
-        user.getId(),
+        user.getIdUser(),
         user.getName(),
         user.getUsername(),
         user.getEmail(),

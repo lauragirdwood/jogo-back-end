@@ -51,7 +51,7 @@ public class JogadorController {
 
     Jogador jogador = jogadorRepository.findById(jogadorId).orElseThrow(() -> new ResourceNotFoundException(NOT_FOUND + jogadorId));
 
-    jogador.jogadorDetails.getNome());
+    jogador.setNome(jogadorDetails.getNome());
     jogador.setSobrenome(jogadorDetails.getSobrenome());
     jogador.setCidade(jogadorDetails.getCidade());
 

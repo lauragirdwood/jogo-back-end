@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d50d074-5b88-42a7-b683-8fd090caa2e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/back-end/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back-end/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back-end/back-end/src/main/java/org/generation/brazil/backend/jogador/JogadorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/back-end/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/back-end/src/main/java/org/generation/brazil/backend/pessoa/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/back-end/src/main/java/org/generation/brazil/backend/jogador/Jogador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/back-end/src/main/java/org/generation/brazil/backend/pessoa/PessoaController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/back-end/src/main/java/org/generation/brazil/backend/pessoa/PessoaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/back-end/src/main/java/org/generation/brazil/backend/jogador/JogadorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/back-end/src/main/java/org/generation/brazil/backend/jogador/Jogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/back-end/src/main/java/org/generation/brazil/backend/jogador/Jogador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/back-end/src/main/java/org/generation/brazil/backend/jogador/JogadorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/back-end/src/main/java/org/generation/brazil/backend/jogador/JogadorController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/back-end/back-end/src/main/java/org/generation/brazil/backend/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/back-end/src/main/java/org/generation/brazil/backend/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/back-end/src/main/java/org/generation/brazil/backend/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/back-end/src/main/java/org/generation/brazil/backend/user/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/back-end/src/main/java/org/generation/brazil/backend/user/UserPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/back-end/src/main/java/org/generation/brazil/backend/user/UserPrincipal.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/Quiz/target/" />
@@ -23,19 +20,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Quiz/src/main/java/org/generation/jogo/Quiz/exception/ResourceNotFoundException.java">
+        <entry file="file://$PROJECT_DIR$/Quiz/src/main/java/org/generation/jogo/Quiz/jogador/Jogador.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="86">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Quiz/src/main/java/org/generation/jogo/Quiz/config/WebConfig.java">
+        <entry file="file://$PROJECT_DIR$/Quiz/src/main/java/org/generation/jogo/Quiz/jogador/JogadorController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="51">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Quiz/src/main/java/org/generation/jogo/Quiz/jogador/JogadorRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Quiz/src/main/java/org/generation/jogo/Quiz/pergunta/Pergunta.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -43,17 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Quiz/src/main/java/org/generation/jogo/Quiz/usuario/Usuario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Quiz/src/main/java/org/generation/jogo/Quiz/jogador/Jogador.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -131,6 +140,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Quiz" type="462c0819:PsiDirectoryNode" />
+              <item name="pergunta" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Quiz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quiz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Quiz" type="462c0819:PsiDirectoryNode" />
               <item name="usuario" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -178,17 +196,18 @@
       <option name="presentableId" value="Default" />
       <updated>1564571766480</updated>
       <workItem from="1564571772230" duration="2501000" />
-      <workItem from="1564575290832" duration="274000" />
+      <workItem from="1564575290832" duration="2736000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2775000" />
+    <option name="totallyTimeSpent" value="5237000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="697" height="735" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2349486" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.43024963" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -241,17 +260,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Quiz/src/main/java/org/generation/jogo/Quiz/jogador/JogadorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Quiz/src/main/java/org/generation/jogo/Quiz/jogador/JogadorRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Quiz/src/main/java/org/generation/jogo/Quiz/pergunta/Pergunta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Quiz/src/main/java/org/generation/jogo/Quiz/jogador/Jogador.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="86">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Quiz/src/main/java/org/generation/jogo/Quiz/usuario/Usuario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
