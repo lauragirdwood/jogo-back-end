@@ -2,24 +2,16 @@ package org.generation.brazil.backend.user;
 
 import java.util.HashSet;
 import java.util.Set;
-import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.JoinTable;
-import javax.persistence.ManyToMany;
-import javax.persistence.Table;
-import javax.persistence.UniqueConstraint;
+import javax.persistence.*;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+
+import lombok.*;
+import org.generation.brazil.backend.jogador.Jogador;
 import org.generation.brazil.backend.role.Role;
 
+//@Getter @Setter
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -60,5 +52,8 @@ public class User {
       joinColumns = @JoinColumn(name = "user_id"),
       inverseJoinColumns = @JoinColumn(name = "role_id"))
   private Set<Role> roles = new HashSet<>();
+
+  @OneToOne(mappedBy = "user", cascade = CascadeType.ALL)
+  private Jogador jogador;
 
 }

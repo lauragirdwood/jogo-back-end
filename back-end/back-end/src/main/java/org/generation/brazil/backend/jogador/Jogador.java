@@ -1,4 +1,4 @@
-package org.generation.brazil.backend.pessoa;
+package org.generation.brazil.backend.jogador;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -10,7 +10,7 @@ import lombok.Data;
 
 @Data
 @Entity
-public class Pessoa {
+public class Jogador {
 
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
