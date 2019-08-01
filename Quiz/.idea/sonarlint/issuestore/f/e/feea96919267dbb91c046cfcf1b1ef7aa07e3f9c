@@ -1,7 +1,0 @@
-
-~squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ñİ˜ÿÿÿÿÿ8Ñ¥õÃ-
-psquid:S001172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ºË 8Ñ¥õÃ-
-usquid:S00117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—¹ºÈøÿÿÿÿ8Ñ¥õÃ-
-usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°´›Ÿûÿÿÿÿ8Ñ¥õÃ-
-csquid:S4684!"@Replace this persistent entity with a simple POJO or DTO object.(ªß‚¥øÿÿÿÿ8÷©ˆÿÃ-
-csquid:S4684'"@Replace this persistent entity with a simple POJO or DTO object.(—¹ºÈøÿÿÿÿ8÷©ˆÿÃ-
