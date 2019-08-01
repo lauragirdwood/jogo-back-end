@@ -1,7 +1,6 @@
-/*package org.generation.jogo.Quiz.resposta;
+package org.generation.jogo.Quiz.resposta;
 
 import com.github.javafaker.Faker;
-import org.generation.jogo.Quiz.pergunta.Pergunta;
 import java.util.Locale;
 
 public class RespostaMock {
@@ -15,4 +14,4 @@ public class RespostaMock {
 
         return respostaFake;
     }
-}*/
+}

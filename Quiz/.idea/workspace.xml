@@ -2,21 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8211887-4469-409c-abdb-116c7dd33f7d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/swagger/SwaggerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/partida/PartidaCrontrollerIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/partida/PartidaMock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/quiz/QuizMock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/297864e5232796e461a85a1553f9c1f425b80e41" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/0/500d80db21a40bbe64047e4065e2a43c9a76d668" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/0/500d80db21a40bbe64047e4065e2a43c9a76d668" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e338ea1782c98438293d52dc34ca1c0de877c065" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e338ea1782c98438293d52dc34ca1c0de877c065" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/jogador/Jogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/jogador/Jogador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/jogador/JogadorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/jogador/JogadorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/partida/PartidaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/partida/PartidaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/pergunta/Pergunta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/pergunta/Pergunta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/pergunta/PerguntaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/pergunta/PerguntaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/quiz/QuizController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/quiz/QuizController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/resposta/Resposta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/resposta/Resposta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/resposta/RespostaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/resposta/RespostaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/resposta/RespostaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/resposta/RespostaRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/usuario/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/usuario/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/usuario/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/usuario/UsuarioController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/Jogador/JogadorControllerIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/Jogador/JogadorControllerIntegrationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/Jogador/JogadorMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/Jogador/JogadorMock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/usuario/UsuarioControllerIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/usuario/UsuarioControllerIntegrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../script/der-definitivo.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/../script/der-definitivo.mwb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../script/der-definitivo.mwb.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../script/der-definitivo.mwb.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/pergunta/PerguntaControllerIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/pergunta/PerguntaControllerIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/pergunta/PerguntaMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/pergunta/PerguntaMock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/quiz/QuizControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/quiz/QuizControllerIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/resposta/RespostaControllerIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/resposta/RespostaControllerIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/resposta/RespostaMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/resposta/RespostaMock.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,8 +65,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -78,7 +86,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/back-end" />
+    <property name="last_opened_file_path" value="$USER_HOME$/jogo-front-end" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -101,81 +109,81 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UsuarioControllerIntegrationTest">
-    <configuration name="UsuarioControllerIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.QuizApplication">
+    <configuration name="JogadorControllerIntegrationTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Quiz" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.generation.jogo.Quiz.usuario.*" />
+          <option name="PATTERN" value="org.generation.jogo.Quiz.Jogador.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.generation.jogo.Quiz.usuario" />
-      <option name="MAIN_CLASS_NAME" value="org.generation.jogo.Quiz.usuario.UsuarioControllerIntegrationTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UsuarioControllerIntegrationTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Quiz" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.generation.jogo.Quiz.usuario.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.generation.jogo.Quiz.usuario" />
-      <option name="MAIN_CLASS_NAME" value="org.generation.jogo.Quiz.usuario.UsuarioControllerIntegrationTest" />
+      <option name="PACKAGE_NAME" value="org.generation.jogo.Quiz.Jogador" />
+      <option name="MAIN_CLASS_NAME" value="org.generation.jogo.Quiz.Jogador.JogadorControllerIntegrationTest" />
       <option name="METHOD_NAME" value="delete" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsuarioControllerIntegrationTest.read" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JogadorControllerIntegrationTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Quiz" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.generation.jogo.Quiz.usuario.*" />
+          <option name="PATTERN" value="org.generation.jogo.Quiz.Jogador.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.generation.jogo.Quiz.usuario" />
-      <option name="MAIN_CLASS_NAME" value="org.generation.jogo.Quiz.usuario.UsuarioControllerIntegrationTest" />
-      <option name="METHOD_NAME" value="read" />
+      <option name="PACKAGE_NAME" value="org.generation.jogo.Quiz.Jogador" />
+      <option name="MAIN_CLASS_NAME" value="org.generation.jogo.Quiz.Jogador.JogadorControllerIntegrationTest" />
+      <option name="METHOD_NAME" value="save" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsuarioControllerIntegrationTest.readById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JogadorControllerIntegrationTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Quiz" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.generation.jogo.Quiz.usuario.*" />
+          <option name="PATTERN" value="org.generation.jogo.Quiz.Jogador.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.generation.jogo.Quiz.usuario" />
-      <option name="MAIN_CLASS_NAME" value="org.generation.jogo.Quiz.usuario.UsuarioControllerIntegrationTest" />
-      <option name="METHOD_NAME" value="readById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UsuarioControllerIntegrationTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Quiz" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.generation.jogo.Quiz.usuario.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.generation.jogo.Quiz.usuario" />
-      <option name="MAIN_CLASS_NAME" value="org.generation.jogo.Quiz.usuario.UsuarioControllerIntegrationTest" />
+      <option name="PACKAGE_NAME" value="org.generation.jogo.Quiz.Jogador" />
+      <option name="MAIN_CLASS_NAME" value="org.generation.jogo.Quiz.Jogador.JogadorControllerIntegrationTest" />
       <option name="METHOD_NAME" value="update" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PartidaCrontrollerIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Quiz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.generation.jogo.Quiz.partida.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.generation.jogo.Quiz.partida" />
+      <option name="MAIN_CLASS_NAME" value="org.generation.jogo.Quiz.partida.PartidaCrontrollerIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PartidaCrontrollerIntegrationTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Quiz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.generation.jogo.Quiz.partida.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.generation.jogo.Quiz.partida" />
+      <option name="MAIN_CLASS_NAME" value="org.generation.jogo.Quiz.partida.PartidaCrontrollerIntegrationTest" />
+      <option name="METHOD_NAME" value="save" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -190,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UsuarioControllerIntegrationTest" />
-        <item itemvalue="JUnit.UsuarioControllerIntegrationTest.delete" />
-        <item itemvalue="JUnit.UsuarioControllerIntegrationTest.update" />
-        <item itemvalue="JUnit.UsuarioControllerIntegrationTest.readById" />
-        <item itemvalue="JUnit.UsuarioControllerIntegrationTest.read" />
+        <item itemvalue="JUnit.PartidaCrontrollerIntegrationTest" />
+        <item itemvalue="JUnit.PartidaCrontrollerIntegrationTest.save" />
+        <item itemvalue="JUnit.JogadorControllerIntegrationTest.save" />
+        <item itemvalue="JUnit.JogadorControllerIntegrationTest.delete" />
+        <item itemvalue="JUnit.JogadorControllerIntegrationTest.update" />
       </list>
     </recent_temporary>
   </component>
@@ -205,12 +213,17 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@6d04b0d8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2ef64ff9" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@6d04b0d8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@79c73d25" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2ef64ff9" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@5bdceb7d" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2ef64ff9" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@7ab9d9ce" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -236,7 +249,10 @@
       <workItem from="1564426632523" duration="263000" />
       <workItem from="1564434239124" duration="5113000" />
       <workItem from="1564484796410" duration="25136000" />
-      <workItem from="1564571128979" duration="6041000" />
+      <workItem from="1564571128979" duration="9848000" />
+      <workItem from="1564589916035" duration="12333000" />
+      <workItem from="1564605912348" duration="5943000" />
+      <workItem from="1564657953617" duration="17433000" />
     </task>
     <servers />
   </component>
@@ -261,13 +277,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/Jogador/JogadorControllerIntegrationTest.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="5" />
+          <line>50</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/Jogador/JogadorControllerIntegrationTest.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="9" />
+          <line>34</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

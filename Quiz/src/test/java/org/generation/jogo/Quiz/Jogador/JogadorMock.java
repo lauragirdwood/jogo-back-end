@@ -10,9 +10,7 @@ public class JogadorMock {
         Jogador jogadorFake = new Jogador();
         Faker faker = new Faker(new Locale("pt-BR"));
 
-        jogadorFake.setId((long) 2);
         jogadorFake.setNome(faker.name().fullName());
-        jogadorFake.setFotoUrl(faker.lorem().sentence());
         jogadorFake.setPontuacao(faker.number().numberBetween(1, 3));
         jogadorFake.setNivel(faker.number().numberBetween(1, 3));
 

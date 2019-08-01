@@ -30,9 +30,9 @@ public class JogadorController {
     }
 
     // CREATE
-    @PostMapping("/jogadores/{id}")
+    @PostMapping("/jogadores")
     @ResponseStatus(HttpStatus.CREATED)
-    public Jogador save (@PathVariable Long id, @RequestBody Jogador jogador) {
+    public Jogador save (@RequestBody Jogador jogador) {
         return jogadorRepository.save(jogador);
     }
 

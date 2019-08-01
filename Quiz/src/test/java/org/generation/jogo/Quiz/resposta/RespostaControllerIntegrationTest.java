@@ -1,9 +1,8 @@
-/*package org.generation.jogo.Quiz.resposta;
+package org.generation.jogo.Quiz.resposta;
 
 
 import org.generation.jogo.Quiz.QuizApplication;
 import org.generation.jogo.Quiz.pergunta.Pergunta;
-import org.generation.jogo.Quiz.pergunta.PerguntaMock;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -49,13 +48,13 @@ public class RespostaControllerIntegrationTest {
 
     @Test
     public void readById() {
-        Resposta resposta = testRestTemplate.getForObject(getRootUrl("/respostas/4"), Resposta.class);
+        Resposta resposta = testRestTemplate.getForObject(getRootUrl("/respostas/2"), Resposta.class);
         assertNotNull(resposta);
     }
 
     @Test
     public void update() {
-        int id = 4;
+        int id = 2;
 
         Resposta resposta = testRestTemplate.getForObject(getRootUrl("/respostas/" + id), Resposta.class);
 
@@ -88,4 +87,4 @@ public class RespostaControllerIntegrationTest {
 
         }
     }
-}*/
+}

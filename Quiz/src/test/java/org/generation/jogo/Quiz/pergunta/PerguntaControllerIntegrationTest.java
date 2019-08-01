@@ -1,4 +1,4 @@
-/*package org.generation.jogo.Quiz.pergunta;
+package org.generation.jogo.Quiz.pergunta;
 
 
 import org.generation.jogo.Quiz.QuizApplication;
@@ -47,35 +47,35 @@ public class PerguntaControllerIntegrationTest {
 
     @Test
     public void readById() {
-        Pergunta pergunta = testRestTemplate.getForObject(getRootUrl("/perguntas/6"), Pergunta.class);
+        Pergunta pergunta = testRestTemplate.getForObject(getRootUrl("/perguntas/1"), Pergunta.class);
         assertNotNull(pergunta);
     }
 
     @Test
     public void update() {
-        int id = 6;
+        int id = 1;
 
         Pergunta pergunta = testRestTemplate.getForObject(getRootUrl("/perguntas/" + id), Pergunta.class);
 
         Integer novoNumero = PerguntaMock.getPergunta().getNumero();
         String novoDescricao = PerguntaMock.getPergunta().getDescricao();
-        Integer novoValor_pontuacao = PerguntaMock.getPergunta().getValor_pontuacao();
+        Integer novoValorPontuacao = PerguntaMock.getPergunta().getValorPontuacao();
 
         pergunta.setNumero(novoNumero);
         pergunta.setDescricao(novoDescricao);
-        pergunta.setValor_pontuacao(novoValor_pontuacao);
+        pergunta.setValorPontuacao(novoValorPontuacao);
 
         testRestTemplate.put(getRootUrl("/perguntas/" + id), pergunta);
 
         Pergunta newPergunta = testRestTemplate.getForObject(getRootUrl("/perguntas/" + id), Pergunta.class);
         assertEquals(novoNumero, newPergunta.getNumero());
         assertEquals(novoDescricao, newPergunta.getDescricao());
-        assertEquals(novoValor_pontuacao, newPergunta.getValor_pontuacao());
+        assertEquals(novoValorPontuacao, newPergunta.getValorPontuacao());
     }
 
     @Test
     public void delete() {
-        int id = 5;
+        int id = 2;
         Pergunta pergunta = testRestTemplate.getForObject(getRootUrl("/perguntas/" + id), Pergunta.class);
         assertNotNull(pergunta);
         testRestTemplate.delete(getRootUrl("/perguntas/" + id));
@@ -87,4 +87,4 @@ public class PerguntaControllerIntegrationTest {
         }
 
     }
-}*/
+}

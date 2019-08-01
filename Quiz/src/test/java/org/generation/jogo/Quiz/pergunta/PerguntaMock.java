@@ -1,4 +1,4 @@
-/*package org.generation.jogo.Quiz.pergunta;
+package org.generation.jogo.Quiz.pergunta;
 
 import com.github.javafaker.Faker;
 
@@ -11,9 +11,9 @@ public class PerguntaMock {
 
         perguntaFake.setNumero(faker.number().numberBetween(1, 1000));
         perguntaFake.setDescricao(faker.lorem().sentence());
-        perguntaFake.setValor_pontuacao(faker.number().numberBetween(1, 3));
+        perguntaFake.setValorPontuacao(faker.number().numberBetween(1, 3));
 
 
         return perguntaFake;
     }
-}*/
+}

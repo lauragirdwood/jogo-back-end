@@ -7,8 +7,6 @@ e
 Tsrc/test/java/org/generation/jogo/Quiz/usuario/UsuarioControllerIntegrationTest.java,d/f/dfcb42ba2ac8c375722dad96e32897631da02b18
 †
 Vsrc/test/java/org/generation/jogo/Quiz/resposta/RespostaControllerIntegrationTest.java,3/d/3d139aa1f588fd5f3d6651902f869e1d9fd24427
-s
-Csrc/test/java/org/generation/jogo/Quiz/quiz/QuizControllerTest.java,2/9/297864e5232796e461a85a1553f9c1f425b80e41
 q
 Asrc/test/java/org/generation/jogo/Quiz/pergunta/PerguntaMock.java,b/2/b2e8f31379658008e16298d05b3047872c92c8a1
 †
@@ -51,3 +49,11 @@ u
 Esrc/main/java/org/generation/jogo/Quiz/partida/PartidaController.java,8/5/856ecb799c39a28d35afbd81832e2d16461023bf
 k
 ;src/main/java/org/generation/jogo/Quiz/partida/Partida.java,e/5/e540fea2650e4db13886f8699b66ea4ecfaacc98
+o
+?src/test/java/org/generation/jogo/Quiz/partida/PartidaMock.java,e/9/e9223f9d0faf19efaf8bf1b789cdbe4dac9dfc30
+i
+9src/test/java/org/generation/jogo/Quiz/quiz/QuizMock.java,a/2/a2668e7b47c75e64aea119e6154c943e90511a17
+~
+Nsrc/test/java/org/generation/jogo/Quiz/quiz/QuizControllerIntegrationTest.java,d/9/d98d3a7f84b188fac444834f91062ea6cf09300f
+…
+Usrc/test/java/org/generation/jogo/Quiz/partida/PartidaCrontrollerIntegrationTest.java,d/d/dd4345038533cea7429d6df5f8396b32bb5c0779

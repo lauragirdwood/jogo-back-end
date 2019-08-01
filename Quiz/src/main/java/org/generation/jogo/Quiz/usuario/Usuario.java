@@ -14,10 +14,20 @@ public class Usuario {
     @Column( name = "id_usuario")
     private Long id;
 
-    @OneToOne(mappedBy = "usuario")
+    @OneToOne(mappedBy = "usuario", cascade = CascadeType.ALL, fetch = FetchType.LAZY, optional = false)
     private Jogador jogador;
 
     private String username;
 
     private String senha;
+
+    public Usuario() {
+    }
+
+    public Usuario(Jogador jogador, String username, String senha) {
+        this.jogador = jogador;
+        this.username = username;
+        this.senha = senha;
+    }
 }
+

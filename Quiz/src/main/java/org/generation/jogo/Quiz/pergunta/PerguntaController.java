@@ -40,7 +40,7 @@ public class PerguntaController {
         return perguntaRepository.findById(id).map(p -> {
             p.setNumero(pergunta.getNumero());
             p.setDescricao(pergunta.getDescricao());
-            p.setValor_pontuacao(pergunta.getValor_pontuacao());
+            p.setValorPontuacao(pergunta.getValorPontuacao());
             return perguntaRepository.save(p);
         }) .orElseThrow(() -> new ResourceNotFoundException("Não existe pergunta cadastrada com o id" + id));
     }

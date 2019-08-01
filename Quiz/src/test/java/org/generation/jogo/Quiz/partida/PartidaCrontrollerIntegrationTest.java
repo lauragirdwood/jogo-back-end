@@ -1,7 +1,6 @@
-package org.generation.jogo.Quiz.Jogador;
+package org.generation.jogo.Quiz.partida;
 
 import org.generation.jogo.Quiz.QuizApplication;
-import org.generation.jogo.Quiz.jogador.Jogador;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +16,7 @@ import static org.junit.Assert.assertNotNull;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = QuizApplication.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class JogadorControllerIntegrationTest {
+public class PartidaCrontrollerIntegrationTest {
 
     @Autowired
     private TestRestTemplate testRestTemplate;
@@ -31,61 +30,54 @@ public class JogadorControllerIntegrationTest {
 
     @Test
     public void save() {
-        ResponseEntity<Jogador> postResponse = testRestTemplate.postForEntity(getRootUrl("/jogadores"), JogadorMock.getJogador(), Jogador.class);
+        ResponseEntity<Partida> postResponse = testRestTemplate.postForEntity(getRootUrl("/partidas"), PartidaMock.getPartida(), Partida.class);
         assertNotNull(postResponse);
         assertEquals(201, postResponse.getStatusCodeValue());
     }
 
-   @Test
+    @Test
     public void read() {
         HttpHeaders headers = new HttpHeaders();
         HttpEntity<String> entity = new HttpEntity<String>(null, headers);
-        ResponseEntity<String> response = testRestTemplate.exchange(getRootUrl("/jogadores"), HttpMethod.GET, entity, String.class);
+        ResponseEntity<String> response = testRestTemplate.exchange(getRootUrl("/partidas"), HttpMethod.GET, entity, String.class);
         assertNotNull(response.getBody());
         assertEquals(200, response.getStatusCodeValue());
     }
 
     @Test
     public void readById() {
-        Jogador jogador = testRestTemplate.getForObject(getRootUrl("/jogadores/1"), Jogador.class);
-        assertNotNull(jogador);
+        Partida partidas = testRestTemplate.getForObject(getRootUrl("/partidas/2"), Partida.class);
+        assertNotNull(partidas);
     }
 
     @Test
     public void update() {
         int id = 1;
 
-        Jogador jogador = testRestTemplate.getForObject(getRootUrl("/jogadores/" + id), Jogador.class);
+        Partida partidas = testRestTemplate.getForObject(getRootUrl("/partidas/" + id), Partida.class);
 
-        String novoNome = JogadorMock.getJogador().getNome();
-        Integer novoNivel = JogadorMock.getJogador().getNivel();
-        Integer novoPontuacao = JogadorMock.getJogador().getPontuacao();
+        Boolean novoCompleta = PartidaMock.getPartida().getCompleta();
 
-        jogador.setNome(novoNome);
-        jogador.setNivel(novoNivel);
-        jogador.setPontuacao(novoPontuacao);
+        partidas.setCompleta(novoCompleta);
 
-        testRestTemplate.put(getRootUrl("/jogadores/" + id), jogador);
+        testRestTemplate.put(getRootUrl("/partidas/" + id), partidas);
 
-        Jogador newJogador = testRestTemplate.getForObject(getRootUrl("/jogadores/" + id), Jogador.class);
-        assertEquals(novoNome, newJogador.getNome());
-        assertEquals(novoNivel, newJogador.getNivel());
-        assertEquals(novoPontuacao, newJogador.getPontuacao());
+        Partida newPartida = testRestTemplate.getForObject(getRootUrl("/partidas/" + id), Partida.class);
+        assertEquals(novoCompleta, newPartida.getCompleta());
+
     }
 
     @Test
     public void delete() {
-        int id = 1;
-        Jogador jogador = testRestTemplate.getForObject(getRootUrl("/jogadores/" + id), Jogador.class);
-        assertNotNull(jogador);
-        testRestTemplate.delete(getRootUrl("/jogadores/" + id));
+        int id = 2;
+        Partida partidas = testRestTemplate.getForObject(getRootUrl("/partidas/" + id), Partida.class);
+        assertNotNull(partidas);
+        testRestTemplate.delete(getRootUrl("/partidas/" + id));
         try {
-            jogador = testRestTemplate.getForObject(getRootUrl("/jogadores/" + id), Jogador.class);
+            partidas = testRestTemplate.getForObject(getRootUrl("/partidas/" + id), Partida.class);
         } catch(final HttpClientErrorException e) {
             assertEquals(e.getStatusCode(), HttpStatus.NOT_FOUND);
 
         }
-
     }
-
 }

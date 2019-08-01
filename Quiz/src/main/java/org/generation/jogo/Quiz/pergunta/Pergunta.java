@@ -29,5 +29,6 @@ public class Pergunta {
 
     private String descricao;
 
-    private Integer valor_pontuacao;
+    @Column(name = "valor_pontuacao")
+    private Integer valorPontuacao;
 }
