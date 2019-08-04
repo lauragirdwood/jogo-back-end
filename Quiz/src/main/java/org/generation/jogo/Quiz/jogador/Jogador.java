@@ -10,12 +10,8 @@ import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
-<<<<<<< HEAD
 @Getter
 @Setter
-=======
-@Getter @Setter
->>>>>>> 0c1dbe840b6532cb723d566f19cd5a4a25c45505
 @Entity
 public class Jogador {
 
