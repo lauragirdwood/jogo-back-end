@@ -1,4 +1,0 @@
-
-wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(нХабюяяяя
-isquid:UselessImportCheck"ERemove this unused import 'org.generation.jogo.Quiz.usuario.Usuario'.(жШЩе
-ssquid:UselessImportCheck"ORemove this unused import 'org.generation.jogo.Quiz.usuario.UsuarioRepository'.(ґЂъЫ
