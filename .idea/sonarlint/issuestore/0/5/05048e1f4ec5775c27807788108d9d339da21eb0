@@ -1,5 +1,0 @@
-
-gsquid:S11929"KDefine a constant instead of duplicating this literal "/usuarios/" 6 times.(ÙğŞ¢şÿÿÿÿ
-usquid:S2293)"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÇÑã”úÿÿÿÿ
-Rsquid:S1854P";Remove this useless assignment to local variable "usuario".(ü·’
-wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Óìß±ùÿÿÿÿ
