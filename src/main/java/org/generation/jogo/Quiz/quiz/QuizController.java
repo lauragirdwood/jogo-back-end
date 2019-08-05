@@ -16,32 +16,27 @@ public class QuizController {
     private QuizRepository quizRepository;
 
     // READ
-    @GetMapping("/api_quiz/v1/quiz")
+    @GetMapping("api_quiz/v1/quiz")
     public List<Quiz> findAll() {
         return quizRepository.findAll();
     }
 
-    // READ
-    @GetMapping("/api_quiz/v1/quiz")
-    public String raiz() {
-        return quizRepository.findAll();
-    }
 
     // READ BY ID
-    @GetMapping("/api_quiz/v1/quiz/{id}")
+    @GetMapping("api_quiz/v1/quiz/{id}")
     public Optional<Quiz> findById(@PathVariable Long id) {
         return quizRepository.findById(id);
     }
 
     // CREATE
-    @PostMapping("/api_quiz/v1/quiz")
+    @PostMapping("api_quiz/v1/quiz")
     @ResponseStatus(HttpStatus.CREATED)
     public Quiz save (@RequestBody Quiz quiz) {
         return quizRepository.save(quiz);
     }
 
     // UPDATE
-    @PutMapping("/api_quiz/v1/quiz/{id}")
+    @PutMapping("api_quiz/v1/quiz/{id}")
     public Quiz update (@PathVariable Long id, @RequestBody Quiz quiz) throws ResourceNotFoundException {
         return quizRepository.findById(id).map(q -> {
             q.setNome(quiz.getNome());
@@ -51,7 +46,7 @@ public class QuizController {
     }
 
     //DELETE
-    @DeleteMapping("/api_quiz/v1/quiz/{id}")
+    @DeleteMapping("api_quiz/v1/quiz/{id}")
     public void delete (@PathVariable Long id) {
         quizRepository.deleteById(id);
     }
