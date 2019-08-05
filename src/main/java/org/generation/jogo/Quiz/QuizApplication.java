@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 
 @SpringBootApplication
-@ComponentScan(basePackages = "org.generation.jogo.Quiz.config")
+@ComponentScan(basePackages = "org.generation.jogo.Quiz.quiz")
 
 public class QuizApplication {
 
