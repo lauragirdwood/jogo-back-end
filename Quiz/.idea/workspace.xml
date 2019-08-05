@@ -2,56 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5a303e9-9079-4bd1-9811-04e22b56d4fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/QuizApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/config/WebConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/exception/ResourceNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/jogador/Jogador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/jogador/JogadorController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/jogador/JogadorRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/partida/Partida.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/partida/PartidaController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/partida/PartidaRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/pergunta/Pergunta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/pergunta/PerguntaController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/pergunta/PerguntaRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/quiz/Quiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/quiz/QuizController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/quiz/QuizRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/resposta/Resposta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/resposta/RespostaController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/resposta/RespostaRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/swagger/SwaggerConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/usuario/Usuario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/usuario/UsuarioController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/generation/jogo/Quiz/usuario/UsuarioRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/Jogador/JogadorControllerIntegrationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/Jogador/JogadorMock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/QuizApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/partida/PartidaCrontrollerIntegrationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/partida/PartidaMock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/pergunta/PerguntaControllerIntegrationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/pergunta/PerguntaMock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/quiz/QuizControllerIntegrationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/quiz/QuizMock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/resposta/RespostaControllerIntegrationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/resposta/RespostaMock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/usuario/UsuarioControllerIntegrationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/generation/jogo/Quiz/usuario/UsuarioMock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Quiz.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -121,6 +72,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -158,16 +113,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564961645843</updated>
-      <workItem from="1564961649931" duration="1753000" />
+      <workItem from="1564961649931" duration="3031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1753000" />
+    <option name="totallyTimeSpent" value="3031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -188,7 +142,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
